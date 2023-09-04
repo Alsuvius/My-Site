@@ -2,4 +2,57 @@ body {
     color: white;
     background-color: #241e38;
     text-align: center;
+    margin: 0;
 }
+
+h2 {
+    padding-top: 50px;
+    margin: 0;
+}
+
+.top-banner {
+    background-image: url(./Assets/sunset.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    min-height: 65vh;
+    border-bottom: 5px solid #ec7639;
+}
+
+.box {
+
+    background-color: #241e38;
+    border: solid;
+    border-radius: 300px;
+    border-width: 5px;
+    border-color: #ec7639;
+    width: 85%; 
+    min-height:250px;
+    margin: 50px auto;
+}
+
+.blurb {
+    display: inline-block;
+    padding: 100px;
+}
+
+
+.button {
+    background-color: #241e38;
+    border: solid;
+    border-radius: 45%;
+    border-width: 5px;
+    border-color: #ec7639;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin: 30px 50px 70px;
+  }
+
+  .button:hover {
+    background-color: #414572;
+    color: white;
+  }
