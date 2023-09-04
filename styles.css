@@ -1,13 +1,26 @@
 body {
-    color: white;
+    color: rgb(250, 247, 240);
     background-color: #241e38;
     text-align: center;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    padding-top: 50px;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    opacity: 90%;
+    text-shadow: 1px 1px #ec7639;
 }
 
 h2 {
-    padding-top: 50px;
-    margin: 0;
+    margin: auto;
+    font-family: 'Caveat', cursive;
+    font-size: 90px;
+    opacity: 90%;
+    text-shadow: 1px 1px #ec7639;
 }
 
 .top-banner {
@@ -16,15 +29,16 @@ h2 {
     background-position: center center;
     background-attachment: scroll;
     min-height: 65vh;
-    border-bottom: 5px solid #ec7639;
+    border-bottom: 3px solid #ec7639;
 }
 
 .box {
-
+    display: flex;
+    justify-content: space-between;
     background-color: #241e38;
     border: solid;
     border-radius: 300px;
-    border-width: 5px;
+    border-width: 3px;
     border-color: #ec7639;
     width: 85%; 
     min-height:250px;
@@ -32,17 +46,29 @@ h2 {
 }
 
 .blurb {
-    display: inline-block;
+    font-size: 22px;
+    text-shadow: 1px 1px black;
+    display: inline-flex;
+    max-width: 75%;
     padding: 100px;
+}
+
+.video {
+    display: inline-flex;
+    margin: auto 30px;
+    min-height: 200px;
+    min-width: 200px;
+    border: 2px solid #3c80b8;
+    border-radius: 60%;
 }
 
 
 .button {
     background-color: #241e38;
     border: solid;
-    border-radius: 45%;
-    border-width: 5px;
-    border-color: #ec7639;
+    border-radius: 30%;
+    border-width: 2px;
+    border-color: #3c80b8;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -55,4 +81,14 @@ h2 {
   .button:hover {
     background-color: #414572;
     color: white;
+    cursor: pointer;
+  }
+
+  footer {
+    margin: 10px;
+    font-size: 12px;
+  }
+
+  a {
+    color: rgb(250, 247, 240);
   }
