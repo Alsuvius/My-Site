@@ -11,25 +11,27 @@ h1 {
 	margin: auto;
 	font-family: 'Dancing Script', cursive;
 	font-size: 40px;
-	opacity: 90%;
+	opacity: 0%;
 	text-shadow: 1px 1px #ec7639;
+  transition: opacity 2s ease;
 }
 
 h2 {
 	margin: auto;
 	font-family: 'Caveat', cursive;
 	font-size: 90px;
-	opacity: 90%;
+	opacity: 0%;
 	text-shadow: 1px 1px #ec7639;
+  transition: opacity 2s ease;
 }
 
 .top-banner {
 	background-image: url(./Assets/sunset.png);
 	background-size: cover;
 	background-position: center center;
-	background-attachment: scroll;
-	min-height: 40vh;
+	min-height: 100vh;
 	border-bottom: 3px solid #ec7639;
+  transition: min-height 2s ease;
 }
 
 /* Main sections */
