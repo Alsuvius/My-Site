@@ -73,22 +73,22 @@ h2 {
 }
 
 .video1 {
-	transform: scale(1.3);
+	transform: scale(1.1);
 	height: 100%;
 	position: relative;
-	left: -140px;
-	top: -42px;
+	top: -14px;
+  left: -14px;
 }
 
 .video2 {
+  transform: scale(1.1);
 	width: 100%;
 	position: relative;
-	top: -120px;
+  left: -14px;
 }
 
 .video3 {
 	width: 100%;
-	transform: scale(1.2);
 }
 
 .all-buttons {
@@ -143,14 +143,14 @@ a {
 	}
 
 	.video1 {
-		left: -70px;
-		top: -21px;
+    transform: scale(1.2);
+		top: -14px;
 	}
 
 	.video2 {
-		left: 0px;
-		top: -65px;
-	}
+    transform: scale(1.1);
+		left: -7px;
+}
 }
 
 @media (max-width: 768px) {
