@@ -5,6 +5,8 @@ window.onload = function () {
 	var header1 = document.querySelectorAll('h1');
 	var header2 = document.querySelectorAll('h2');
 
+  document.body.classList.add('disable-scroll');
+
 	topBanners.forEach(function (topBanner) {
 		setTimeout(function () {
 			topBanner.style.minHeight = '40vh';
@@ -21,6 +23,10 @@ window.onload = function () {
 		}, 2500);
 	});
 };
+
+    setTimeout(function () {
+      document.body.classList.remove('disable-scroll');
+  }, 6000);
 
 // Tilly DNA pop-up
 
