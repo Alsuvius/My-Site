@@ -26,7 +26,7 @@ h2 {
 }
 
 .top-banner {
-	background-image: url(./Assets/sunset.png);
+	background-image: url(./Assets/sunset.webp);
 	background-size: cover;
 	background-position: center center;
 	min-height: 100vh;
@@ -50,6 +50,7 @@ h2 {
 	width: 85%;
 	max-width: 1400px;
 	margin: 50px auto;
+	box-shadow: 0 0 10px 5px #ec763950;
 }
 
 .blurb {
@@ -178,6 +179,10 @@ a {
 }
 
 /* Responsive Transitions */
+
+.disable-scroll {
+    overflow: hidden;
+}
 
 @media (max-width: 1280px) {
 	.blurb {
