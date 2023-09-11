@@ -213,10 +213,11 @@ a {
 		flex-direction: column;
 		align-items: center;
 		border-radius: 65px;
+		margin: 30px auto;
 	}
 
 	.blurb {
-		padding: 5px 5px 5px 5px;
+		padding: 10px;
 		text-align: center;
 	}
 
@@ -232,4 +233,9 @@ a {
 	.button {
 		margin: 10px;
 	}
+
+	.popup-video {
+		max-width: 75vw;
+	}
+
 }
