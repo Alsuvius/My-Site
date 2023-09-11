@@ -32,6 +32,7 @@ h2 {
 	min-height: 100vh;
 	border-bottom: 3px solid #ec7639;
 	transition: min-height 2s ease;
+	box-shadow: 0 0 10px 5px #ec763950;
 }
 
 /* Main sections */
@@ -176,6 +177,7 @@ footer {
 
 a {
 	color: rgb(250, 247, 240);
+	font-style: normal;
 }
 
 /* Responsive Transitions */

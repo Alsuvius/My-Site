@@ -1,5 +1,9 @@
 // Page load animations
 
+window.onload = function() {
+	window.scrollTo(0, 0);
+  }
+
 window.onload = function () {
 	var topBanners = document.querySelectorAll('.top-banner');
 	var header1 = document.querySelectorAll('h1');
